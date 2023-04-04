@@ -84,7 +84,7 @@ scene.add( cube );
 
 //spotLight.target = loadedModel;
 
-const geometry2 = new THREE.PlaneGeometry(15,15);
+const geometry2 = new THREE.PlaneGeometry(150,150);
 const material2 = new THREE.MeshStandardMaterial( {
 	map: planeTexture, 
 	side: THREE.DoubleSide, 
